@@ -3,9 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './Login.css';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { getAuth } from 'firebase/auth';
 import app from '../../firebase.init';
+import { useSignInWithGoogle } from 'react-firebase-hooks/auth';
 
 
 const auth = getAuth(app);
@@ -24,10 +25,25 @@ const Login = () => {
         navigate('/register')
     }
 
+
+
+    const [SignInWithGoogle, user] = useSignInWithGoogle(auth);
+    const location = useLocation();
+    const Navigate = useNavigate();
+    const from = location?.state?.from?.pathname || '/'
+    const handleGoogleSignIn = () => {
+        SignInWithGoogle()
+            .then(() => {
+                Navigate(from, { replace: true })
+            })
+    }
     return (
 
         <div className="Login w-50 mx-auto mt-5">
             <h3>Please Login </h3>
+            <div style={{ margin: '20px' }}>
+                <button onClick={handleGoogleSignIn}>Google Sign In</button>
+            </div>
             <h2 className="text-primary"> </h2>
             <Form onSubmit={handleSubmit}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
