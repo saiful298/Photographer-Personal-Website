@@ -1,5 +1,14 @@
 .registration{
   border: solid 1px rgb(112, 111, 113);
-  padding: 40px;
+background-color: aquamarine;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 100px;
+  padding-top: 50px;
+  height: 520px;
   
+}
+.register{
+ color: red;
+
 }

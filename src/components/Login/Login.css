@@ -1,0 +1,16 @@
+.Login{
+    border: solid 1px black;
+    padding: 40px;
+    background-color: rgb(162, 238, 159);
+    margin-bottom: 50px;
+}
+.create-new:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+.create-new{
+    margin-left: 250px;
+    margin-right: 250px;
+  border: solid 1px rgb(138, 138, 139);
+   border-radius: 10px;
+}
