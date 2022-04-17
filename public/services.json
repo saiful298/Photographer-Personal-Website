@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "name": "Wedding PhotoShoot",
+        "seller": "Addidas",
+        "price": 4500,
+        "ratings": 4,
+        "img": "https://i.ibb.co/LYrV4kt/wedding-photography-500x500.jpg",
+        "description": " All types of Wedding Photography are done in the package.you take your desired pictures from this package."
+    },
+    {
+        "id": "2",
+        "name": "Birthday PhotoShoot",
+        "seller": "Addidas",
+        "price": 4200,
+        "ratings": 4,
+        "img": "https://i.ibb.co/nbhPGQJ/download.jpg",
+        "description": " Birthday photography gets 4 hours of photography in one package  take your desired pictures from this package. "
+    },
+    {
+        "id": "3",
+        "name": "Yellow PhotoShoot",
+        "seller": "Addidas",
+        "price": 3500,
+        "ratings": 4,
+        "img": "https://i.ibb.co/P6WxyJ1/0058c5cde563bb355863f1b2965376d5.jpg",
+        "description": "Yellow PhotoShoot you gets 5 hours of photography in one package take your desired pictures from this package."
+    },
+    {
+        "id": "4",
+        "name": "OutDoor PhotoShoot",
+        "seller": "Addidas",
+        "price": 3500,
+        "ratings": 4,
+        "img": "https://i.ibb.co/jkmfc1y/maxresdefault.jpg",
+        "description": "OutDoor PhotoShoot you gets 3 hours of photography in one package take your desired pictures from this package."
+    },
+    {
+        "id": "5",
+        "name": "Modeling PhotoShoot",
+        "seller": "Addidas",
+        "price": 5600,
+        "ratings": 4,
+        "img": "https://i.ibb.co/qy9hWPn/istockphoto-1178314582-612x612.jpg",
+        "description": " Modeling PhotoShoot you gets 2 hours of photography in one package take your desired pictures from this package."
+    }
+]
