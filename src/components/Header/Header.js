@@ -15,14 +15,13 @@ const Header = () => {
                 <Link to="/blogs">Blogs</Link>
                 <Link to="/checkout">CheckOut</Link>
                 <Link to="/aboutus">AboutUs</Link>
-                <Link to="/register">Register</Link>
                 <span>{user?.displayName && user.displayName}</span>
                 {
                     user?.uid
                         ?
                         <button onClick={() => signOut(auth)}>SignOut</button>
                         :
-                        <Link to="/login">Login</Link>
+                        <Link to="/login">Login/Register</Link>
                 }
             </nav>
         </div>
