@@ -9,6 +9,7 @@ import CheckOut from './components/CheckOut/CheckOut';
 import AboutUs from './components/AboutUs/AboutUs';
 import RequireAuth from './components/RequireAuth/RequireAuth';
 import Footer from './components/Footer/Footer';
+import NotFound from './components/Login/NotFound/NotFound';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/checkout' element={<RequireAuth><CheckOut></CheckOut></RequireAuth>}></Route>
         <Route path='/AboutUs' element={<AboutUs></AboutUs>}></Route>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
