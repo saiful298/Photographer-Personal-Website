@@ -12,8 +12,10 @@ const Services = () => {
     return (
         <div className='services-title'>
             <br />
-            <span className='banner'> <img src="https://i.ibb.co/Tm14fB1/Camera-Banner-1.jpg" alt="" /></span>
+            <span className='banner'> <img className='img-fluid' src="https://i.ibb.co/VSKj2kk/World-Photography-Day-August-19.png" alt="" /></span>
+
             <br />
+
             <br />
             <br />
             <h1> Our Package</h1>

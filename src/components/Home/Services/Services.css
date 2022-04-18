@@ -5,11 +5,6 @@
 .logo img{
     width: 200px;
 }
-.banner img{
-    height:720px;
-    width: 1340px;
-
-}
 .services{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
@@ -29,3 +24,5 @@
         grid-template-columns: repeat(2,1fr);
     }
 }
+
+
