@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='footer'>
             <p>Author: Saiful Islam<br /></p>
-            <p class="mb-1">&copy; 2020-2022 saiful.pro</p>
+            <p class="mb-1">&copy; 2020-2022 Saiful.pro</p>
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="#">Privacy</a></li>
                 <li class="list-inline-item"><a href="#">Terms</a></li>
