@@ -19,7 +19,7 @@ function AboutUs() {
                     <p style={{ textAlign: "center" }}>
                         Hi Everyone, I am <span className="purple">SAIFUL ISLAM </span>
                         from <span className="purple"> Dhaka Bangladesh</span>
-                        <br /><h6>Hello everyone, I'm a   & Web Developer & Graphic Designer I have 3 years of experience, with different companies and customers from different countries in the world. And I have skills in programs: Adobe Photoshop Adobe Illustrator Adobe In Design. I have good experience in the following areas: Web Development, HTML CSS, PHP, JAVASCRIPT, JQUERY WordPress. I have 2 years of design experience. 100% refund if not satisfied.</h6>
+                        <br /><h6>Hello everyone, I'm a Photographer and Graphic Designer I have 3 years of experience, with different companies and customers from different countries in the world. And I have skills in programs: Adobe Photoshop Adobe Illustrator Adobe In Design.</h6>
 
 
                     </p>
