@@ -10,7 +10,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 
 const auth = getAuth(app)
 
-function Register() {
+function Login() {
     const [validated, setValidated] = useState(false);
     const [registered, setRegistered] = useState(false);
     const [error, setError] = useState('');
@@ -161,4 +161,4 @@ function Register() {
     );
 }
 
-export default Register;
+export default Login;
