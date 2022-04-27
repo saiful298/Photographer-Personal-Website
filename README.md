@@ -1,7 +1,7 @@
 
-# Morya Photography
+# Photographer Personal Website
 
-Here Is live website Link [Missile Gun store ](https://stunning-cactus-7fb273.netlify.app/).
+Here Is live website Link [Photographer Personal Website](https://stunning-cactus-7fb273.netlify.app/).
 
 - মরিয়া ফটোগ্রাফি নামে একটি ওয়েবসাইট তৈরি করা হয়েছে সেখানে একটি হোমপেইজ একটি ব্লগ পেজ একাউন্ট পেজ এবং একটি এবাউট স্পেস এবং লগিং এন্ড রেজিস্টার পেজ রয়েছে 
 
